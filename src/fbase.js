@@ -2,6 +2,7 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 
  
 const firebaseConfig = {
@@ -22,3 +23,4 @@ const authService = getAuth(app);
 
 export const firebaseInstance = app;
 export default authService;
+export const dbService = getFirestore();
