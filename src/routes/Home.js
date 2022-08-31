@@ -1,7 +1,11 @@
 import {  addDoc, collection, serverTimestamp, onSnapshot } from "firebase/firestore"
 import { useEffect, useState } from "react";
-import { dbService } from "fbase";
+import { dbService, storageRef, storageService } from "fbase";
 import Kweet from "components/Kweet";
+import { v4 } from "uuid";
+import { ref, uploadString, getDownloadURL } from "@firebase/storage";
+
+
 
 const Home = ({ userObj }) => {
    const [kweet, setKweet] = useState("");
@@ -25,13 +29,23 @@ const Home = ({ userObj }) => {
    
    const onSubmit = async (event) => {
       event.preventDefault();
+      let attachmentUrl = "";
+      
+      if(attachment !== "") {
+         const attachmentRef = ref(storageService, `${userObj.uid}/${v4()}`);
+         const response = await uploadString(attachmentRef, attachment, "data_url");
+         attachmentUrl = await getDownloadURL(response.ref);   
+      }
 
       await addDoc(collection(dbService, "kweets"), {
          text: kweet,
          createdAt: serverTimestamp(),
          creatorId: userObj.uid,
+         attachmentUrl,
        });
+
       setKweet("");
+      setAttachment("");
    };
 
    const onChange = (event) => {

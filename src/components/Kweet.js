@@ -1,6 +1,8 @@
 import { dbService } from "fbase";
 import { deleteDoc, doc, updateDoc } from "@firebase/firestore";
 import { useState } from "react";
+import { deleteObject, ref } from "firebase/storage";
+import { storageService } from "fbase";
 
 const Kweet = ({ kweetObj, isOwner }) => {
     
@@ -17,6 +19,10 @@ const Kweet = ({ kweetObj, isOwner }) => {
             console.log(kweetObj.id);
             const data = deleteDoc(doc(dbService, "kweets", kweetObj.id));
             console.log(data);
+
+            if(kweetObj.attachmentUrl !== "") {
+                await deleteObject(ref(storageService, kweetObj.attachmentUrl)); 
+            }
         }
     };
 
@@ -49,6 +55,13 @@ const Kweet = ({ kweetObj, isOwner }) => {
             ) : (
                 <>
                         <h4>{kweetObj.text}</h4>
+
+                            {kweetObj.attachmentUrl && (
+                                <>
+                                <img src={kweetObj.attachmentUrl} width="50px" height="50px" alt="tweets"/>
+                                </>
+                            )}
+
                           {isOwner && (
                         <>
                             <button onClick={onDeleteClick}>Delete Kweet</button>
