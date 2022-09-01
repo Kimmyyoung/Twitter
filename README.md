@@ -1,14 +1,20 @@
 
 <div align="center">
 
-# Kimmy Twitter
+<span align="right">
 
-Twitter Clone with React and Firebase
+  ### 💡 Twitter 💡 
+---
+    Twitter Clone with React and Firebase
+</span>
 
+<span align="right">
 
-# Project Details
+  ### 💻 Project Detail 💻 
+---
+    https://hykimmmm.notion.site/Kimmy-Twitter-Project-3b43d1beb7c7472c915526e1856dfafc
 
-https://hykimmmm.notion.site/Kimmy-Twitter-Project-3b43d1beb7c7472c915526e1856dfafc
+</span>
 
 </div>
 
@@ -20,7 +26,7 @@ https://hykimmmm.notion.site/Kimmy-Twitter-Project-3b43d1beb7c7472c915526e1856df
   
   <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=seondal&theme=dracula&exclude_repo=Computer-Science-Engineering&layout=compact&langs_count=10"/>
   
-  ### 🐣 Kimmy Twitter 🐥 
+  ### 💡 Developer Kimmy 💡 
   
   ---
   
