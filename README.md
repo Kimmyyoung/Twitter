@@ -1,28 +1,20 @@
 
-<div align="center">
-
-<span align="left">
-
+<div align="center" display="inline-block">
   ### 💡 Twitter 💡 
 ---
     Twitter Clone with React and Firebase
-</span>
+</div>
 
-<span align="right">
-
+<div align="center" display="inline-block">
   ### 💻 Project Detail 💻 
 ---
     https://hykimmmm.notion.site/Kimmy-Twitter-Project-3b43d1beb7c7472c915526e1856dfafc
-
-</span>
-
 </div>
-
 
 
 <!-- tt --------------------------------------------------------->
 
-<div align="center">
+<div align="center" >
   
   <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=seondal&theme=dracula&exclude_repo=Computer-Science-Engineering&layout=compact&langs_count=10"/>
   
