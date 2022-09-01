@@ -1,21 +1,15 @@
 
 <div align="center">
   
-<span float="left" style="display:inline-block">
-
   ### 💡 Twitter 💡 
 ---
     Twitter Clone with React and Firebase
 
-</span>
 
-<span float="right" style="display:inline-block">
-
-    ### 💻 Project Detail 💻 
+   ### 💻 Project Detail 💻 
 ---
         https://hykimmmm.notion.site/Kimmy-Twitter-Project-3b43d1beb7c7472c915526e1856dfafc
    
-</span>
 </div>
 
 
