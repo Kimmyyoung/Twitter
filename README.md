@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<span align="right">
+<span align="left">
 
   ### 💡 Twitter 💡 
 ---
