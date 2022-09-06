@@ -5,7 +5,6 @@ import { updateProfile } from "firebase/auth";
 
 function App() {
   const [init, setInit ] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState();
   const [userObj, setUserObj] = useState(null);
   const [newName, setNewName] = useState("");
 
@@ -24,7 +23,7 @@ function App() {
             updateProfile:  updateProfile(user, { displayName: user.displayName })         
           });
         }else {
-          setUserObj(null);
+          setUserObj(false);
         }
         setInit(true);
       }
