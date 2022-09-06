@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/kimmy-twitter.git/static/js/main.a48414a1.js",
-    "index.html": "/kimmy-twitter.git/index.html",
-    "main.a48414a1.js.map": "/kimmy-twitter.git/static/js/main.a48414a1.js.map"
+    "main.js": "/kimmy-twitter/static/js/main.a48414a1.js",
+    "index.html": "/kimmy-twitter/index.html",
+    "main.a48414a1.js.map": "/kimmy-twitter/static/js/main.a48414a1.js.map"
   },
   "entrypoints": [
     "static/js/main.a48414a1.js"
