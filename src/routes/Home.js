@@ -4,7 +4,6 @@ import { dbService } from "fbase";
 import Kweet from "components/Kweet";
 import KweetFactory from "components/KweetFactory";
 
-
 const Home = ({ userObj }) => {
    const [kweets, setKweets] = useState([]);
 
@@ -18,11 +17,13 @@ const Home = ({ userObj }) => {
          setKweets(newArray);
       })
    },[]);
+
+   
    return (
-      <>
+      <div className="container">
        <KweetFactory userObj={userObj}/>
 
-         <div>
+         <div style={{ marginTop: 30 }}>
             {
                kweets.map((kweet) => (
                   <Kweet key={kweet.id} kweetObj={kweet} isOwner={kweet.creatorId === userObj.uid} />
@@ -30,7 +31,7 @@ const Home = ({ userObj }) => {
             }
          </div>  
 
-      </>
+      </div>
    );
 };
 
