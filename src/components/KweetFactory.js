@@ -60,11 +60,9 @@ const KweetFactory = ({userObj}) => {
 
     return (
         <form onSubmit={onSubmit} className="factoryForm">
-        <div className="factoryInput__container">
-
-        
-        <input className="factoryInput__input" value={kweet} onChange={onChange} type="text" placeholder="What's on your mind?" maxLength={120} />
-        <input type="submit" value="&rarr;" className="factoryInput__arrow" />
+            <div className="factoryInput__container">
+            <input className="factoryInput__input" value={kweet} onChange={onChange} type="text" placeholder="What's on your mind?" maxLength={120} />
+            <input type="submit" value="&rarr;" className="factoryInput__arrow" />
       </div>     
 
       <label htmlFor="attach-file" className="factoryInput__label">
