@@ -12,6 +12,13 @@
 ---
         https://hykimmmm.notion.site/Kimmy-Twitter-Project-3b43d1beb7c7472c915526e1856dfafc
    
+   
+   ### 🐣 Preview 🐣
+   
+   
+   ![twitter-readme](https://user-images.githubusercontent.com/97567561/189702821-d4be20da-8c98-4208-a946-ff5558cbfd7f.jpg)
+
+   
 </div>
 
 
