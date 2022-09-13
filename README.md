@@ -26,8 +26,7 @@
 <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKimmyyoung%2Fkimmy-twitter&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Github&edge_flat=false"/>
 
 <br/>
-<br/>
-<br/>
+
 
 
 <img align="left" height="250px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kimmyyoung&theme=dracula&exclude_repo=Computer-Science-Engineering&layout=compact&langs_count=10"/>  <h3>
@@ -44,13 +43,8 @@
 
 <h3> :hammer: Tools </h3>
 <hr/>
-
-
 ![GitHub](https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=GitHub&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/VisualStudioCode-007ACC.svg?&style=for-the-badge&logo=GitHub&logoColor=white)
-
-
-
 </div>
 
 
